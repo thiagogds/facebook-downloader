@@ -1,0 +1,1 @@
+web: gunicorn facebook_downloader.wsgi --log-file -
