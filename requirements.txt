@@ -9,4 +9,4 @@ django-sslify==0.2.7
 git+https://gitlab.com/kolab/gate_id.git
 raven==5.20.0
 django-braces==1.9.0
-requests-2.11.1
+requests==2.11.1
