@@ -2,3 +2,4 @@ env
 *.pyc
 staticfiles
 settings.ini
+db.sqlite3

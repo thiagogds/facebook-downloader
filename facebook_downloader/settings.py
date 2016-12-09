@@ -28,7 +28,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'gate_id.middleware.GateSessionMiddleware',
+    #'gate_id.middleware.GateSessionMiddleware',
 )
 
 ROOT_URLCONF = 'facebook_downloader.urls'
@@ -107,6 +107,8 @@ GATE_URL = config('GATE_URL')
 LOGIN_URL = '/login/'
 
 RAVEN_URL = config('RAVEN_URL')
+
+FACEBOOK_TOKEN = config('FACEBOOK_TOKEN')
 
 if RAVEN_URL:
     RAVEN_CONFIG = {'dsn': RAVEN_URL}

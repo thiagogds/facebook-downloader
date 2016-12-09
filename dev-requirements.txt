@@ -1,3 +1,4 @@
 -r requirements.txt
 model-mommy==1.2.6
 ipdb==0.10.0
+responses==0.5.1
